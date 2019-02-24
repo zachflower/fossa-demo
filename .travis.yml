@@ -6,7 +6,7 @@ before_script:
 
 script:
   # your build scripts before running `fossa`
-  - crystal spec
+  - rspec
 
   # NOTE: before running `fossa` make sure to set your FOSSA_API_KEY
   # environment variable in Travis
