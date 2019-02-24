@@ -1,4 +1,4 @@
-language: crystal
+language: ruby
 
 before_script:
   # install the fossa cli tool
