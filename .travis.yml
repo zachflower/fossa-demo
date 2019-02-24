@@ -5,7 +5,7 @@ crystal:
 
 before_script:
   # install the fossa cli tool
-	- "curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | sudo bash"
+  - "curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | sudo bash"
 
 script:
   # your build scripts before running `fossa`
